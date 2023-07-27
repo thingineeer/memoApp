@@ -66,17 +66,41 @@
 			children = (
 				7164CFA12A70E68C003FEB73 /* AppDelegate.swift */,
 				7164CFA32A70E68C003FEB73 /* SceneDelegate.swift */,
-				7164CFA52A70E68C003FEB73 /* ViewController.swift */,
-				7164CFA72A70E68C003FEB73 /* Main.storyboard */,
+				7164CFBE2A7150D7003FEB73 /* Model */,
+				7164CFBF2A7150EC003FEB73 /* View */,
+				7164CFC02A7150F2003FEB73 /* Controllers */,
 				7164CFAD2A70E68C003FEB73 /* Assets.xcassets */,
 				7164CFAF2A70E68C003FEB73 /* LaunchScreen.storyboard */,
 				7164CFB22A70E68C003FEB73 /* Info.plist */,
 				7164CFAA2A70E68C003FEB73 /* memoApp.xcdatamodeld */,
+			);
+			path = memoApp;
+			sourceTree = "<group>";
+		};
+		7164CFBE2A7150D7003FEB73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				7164CFB82A70E74E003FEB73 /* Memo.swift */,
 				7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */,
 				7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */,
 			);
-			path = memoApp;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7164CFBF2A7150EC003FEB73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7164CFA72A70E68C003FEB73 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7164CFC02A7150F2003FEB73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7164CFA52A70E68C003FEB73 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
