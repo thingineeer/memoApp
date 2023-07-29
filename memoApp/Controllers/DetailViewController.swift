@@ -24,6 +24,8 @@ final class DetailViewController: UIViewController {
     
     @IBOutlet weak var saveButton: UIButton!
     
+    @IBOutlet weak var deleteButton: UIButton!
+    
     
     // 모델(저장 데이터를 관리하는 코어데이터)
     let memoManager = CoreDataManager.shared
@@ -162,6 +164,20 @@ final class DetailViewController: UIViewController {
             }
         }
     }
+    
+    
+    @IBAction func deleteButtonTapped(_ sender: UIButton) {
+        
+        if let memoData = self.memoData {
+            
+            memoManager.deleteToDo(data: memoData) {
+                print("삭제되었음")
+            }
+        }
+        self.navigationController?.popViewController(animated: true)
+        
+    }
+    
     
     
     // 다른 곳을 터치하면 키보드 내리기

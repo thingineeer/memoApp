@@ -95,6 +95,15 @@
                                     <action selector="saveButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="I4G-VQ-hqO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2W-Z3-PTz">
+                                <rect key="frame" x="159" y="603" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="gWQ-WX-nus"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KEQ-Gb-dxz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -114,6 +123,7 @@
                     <connections>
                         <outlet property="backgroundView" destination="EFp-h5-irg" id="bBE-8g-8nW"/>
                         <outlet property="blueButton" destination="k90-zL-FW1" id="fJG-lZ-YSD"/>
+                        <outlet property="deleteButton" destination="h2W-Z3-PTz" id="e5p-TO-myj"/>
                         <outlet property="greenButton" destination="IIF-d6-mh8" id="e8V-bL-Xhh"/>
                         <outlet property="memoTextView" destination="aaU-8a-VJP" id="1iR-NH-zLk"/>
                         <outlet property="purpleButton" destination="4P3-j1-cSa" id="THg-5x-7gR"/>
