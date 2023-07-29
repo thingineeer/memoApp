@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="7fV-4c-3IB">
-                                <rect key="frame" x="25" y="79" width="343" height="35"/>
+                                <rect key="frame" x="25" y="123" width="343" height="35"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dh-0a-xfV">
                                         <rect key="frame" x="0.0" y="0.0" width="74.666666666666671" height="35"/>
@@ -49,7 +49,7 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFp-h5-irg">
-                                <rect key="frame" x="25" y="154" width="343" height="200"/>
+                                <rect key="frame" x="25" y="198" width="343" height="200"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aaU-8a-VJP">
                                         <rect key="frame" x="22" y="8" width="313" height="184"/>
@@ -69,7 +69,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-S2-4Sc">
-                                <rect key="frame" x="25" y="394" width="343" height="40"/>
+                                <rect key="frame" x="25" y="438" width="343" height="40"/>
                                 <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="6gW-z6-o7d"/>
@@ -220,11 +220,12 @@
                     <navigationItem key="navigationItem" id="tK0-Gp-0KO"/>
                     <connections>
                         <outlet property="tableView" destination="FCy-X6-8ih" id="imJ-tT-uL4"/>
+                        <segue destination="dYC-Ba-qiC" kind="show" identifier="MemoCell" id="go7-MX-6TE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="beM-cI-yi4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1885" y="1"/>
+            <point key="canvasLocation" x="1905" y="-2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0de-zq-e0j">

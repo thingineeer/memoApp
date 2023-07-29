@@ -30,6 +30,7 @@ final class MemoCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        basicUI()
         // Initialization code
     }
     
