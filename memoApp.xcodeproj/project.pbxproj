@@ -17,6 +17,7 @@
 		7164CFBC2A70ED63003FEB73 /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */; };
 		7164CFBD2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */; };
 		719AB4B82A75372C00F4DDB8 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4B72A75372C00F4DDB8 /* MyColor.swift */; };
+		719AB4BB2A753CD400F4DDB8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4BA2A753CD400F4DDB8 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		719AB4B72A75372C00F4DDB8 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		719AB4BA2A753CD400F4DDB8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */,
 				7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */,
 				719AB4B72A75372C00F4DDB8 /* MyColor.swift */,
+				719AB4BA2A753CD400F4DDB8 /* CoreDataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				719AB4B82A75372C00F4DDB8 /* MyColor.swift in Sources */,
 				7164CFBC2A70ED63003FEB73 /* MemoData+CoreDataClass.swift in Sources */,
 				7164CFBD2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift in Sources */,
+				719AB4BB2A753CD400F4DDB8 /* CoreDataManager.swift in Sources */,
 				7164CFAC2A70E68C003FEB73 /* memoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
