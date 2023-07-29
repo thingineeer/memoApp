@@ -49,7 +49,7 @@ final class CoreDataManager {
     }
     
     // MARK: - [Create] 코어데이터에 데이터 생성하기
-    func saveToDoData(toDoText: String?, colorInt: Int64, completion: @escaping () -> Void) {
+    func saveToDoData(memoText: String?, colorInt: Int64, completion: @escaping () -> Void) {
         // 임시저장소 있는지 확인
         if let context = context {
             // 임시저장소에 있는 데이터를 그려줄 형태 파악하기
@@ -59,7 +59,7 @@ final class CoreDataManager {
                 if let memoManager = NSManagedObject(entity: entity, insertInto: context) as? MemoData {
                     
                     // MARK: - ToDoData에 실제 데이터 할당 ⭐️
-                    memoManager.memoText = toDoText
+                    memoManager.memoText = memoText
                     memoManager.date = Date()   // 날짜는 저장하는 순간의 날짜로 생성
                     memoManager.color = colorInt
                     

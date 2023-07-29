@@ -140,6 +140,7 @@ final class DetailViewController: UIViewController {
     }
     
     @IBAction func saveButtonTapped(_ sender: UIButton) {
+        
         // 기존데이터가 있을때 ===> 기존 데이터 업데이트
         if let memoData = self.memoData {
             // 텍스트뷰에 저장되어 있는 메세지
@@ -154,13 +155,14 @@ final class DetailViewController: UIViewController {
         // 기존데이터가 없을때 ===> 새로운 데이터 생성
         } else {
             let memoText = memoTextView.text
-            memoManager.saveToDoData(toDoText: memoText, colorInt: temporaryNum ?? 1) {
+            memoManager.saveToDoData(memoText: memoText, colorInt: temporaryNum ?? 1) {
                 print("저장완료")
                 // 다시 전화면으로 돌아가기
                 self.navigationController?.popViewController(animated: true)
             }
         }
     }
+    
     
     // 다른 곳을 터치하면 키보드 내리기
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

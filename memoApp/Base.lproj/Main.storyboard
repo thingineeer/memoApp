@@ -24,24 +24,36 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Red"/>
+                                        <connections>
+                                            <action selector="colorButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="qLB-nw-jxE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIF-d6-mh8">
                                         <rect key="frame" x="89.666666666666686" y="0.0" width="74.333333333333314" height="35"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Green"/>
+                                        <connections>
+                                            <action selector="colorButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="DZS-VL-Gfb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k90-zL-FW1">
                                         <rect key="frame" x="179" y="0.0" width="74.666666666666686" height="35"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Blue"/>
+                                        <connections>
+                                            <action selector="colorButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="cRz-Qg-zKK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4P3-j1-cSa">
                                         <rect key="frame" x="268.66666666666669" y="0.0" width="74.333333333333314" height="35"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Purple"/>
+                                        <connections>
+                                            <action selector="colorButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="839-VL-FxG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -51,8 +63,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFp-h5-irg">
                                 <rect key="frame" x="25" y="198" width="343" height="200"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aaU-8a-VJP">
-                                        <rect key="frame" x="22" y="8" width="313" height="184"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aaU-8a-VJP">
+                                        <rect key="frame" x="15" y="8" width="313" height="184"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -61,11 +73,11 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.99617992519999998" green="0.99773031469999995" blue="0.72773400860000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="aaU-8a-VJP" secondAttribute="bottom" constant="8" id="L58-pa-eWy"/>
-                                    <constraint firstItem="aaU-8a-VJP" firstAttribute="leading" secondItem="EFp-h5-irg" secondAttribute="leading" constant="15" id="LJg-Jt-jCc"/>
+                                    <constraint firstAttribute="bottom" secondItem="aaU-8a-VJP" secondAttribute="bottom" constant="8" id="3X3-eA-PIB"/>
+                                    <constraint firstItem="aaU-8a-VJP" firstAttribute="leading" secondItem="EFp-h5-irg" secondAttribute="leading" constant="15" id="4RP-S1-5Pe"/>
+                                    <constraint firstItem="aaU-8a-VJP" firstAttribute="top" secondItem="EFp-h5-irg" secondAttribute="top" constant="8" id="8t7-uS-wcq"/>
                                     <constraint firstAttribute="height" constant="200" id="Mlz-zB-oaw"/>
-                                    <constraint firstAttribute="trailing" secondItem="aaU-8a-VJP" secondAttribute="trailing" constant="15" id="qkr-x3-K9T"/>
-                                    <constraint firstItem="aaU-8a-VJP" firstAttribute="top" secondItem="EFp-h5-irg" secondAttribute="top" constant="8" id="to5-3u-7De"/>
+                                    <constraint firstAttribute="trailing" secondItem="aaU-8a-VJP" secondAttribute="trailing" constant="15" id="Zmi-Fu-HhW"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBW-S2-4Sc">
@@ -79,6 +91,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveButtonTapped:" destination="dYC-Ba-qiC" eventType="touchUpInside" id="I4G-VQ-hqO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KEQ-Gb-dxz"/>
