@@ -18,6 +18,8 @@
 		7164CFBD2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */; };
 		719AB4B82A75372C00F4DDB8 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4B72A75372C00F4DDB8 /* MyColor.swift */; };
 		719AB4BB2A753CD400F4DDB8 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4BA2A753CD400F4DDB8 /* CoreDataManager.swift */; };
+		719AB4BD2A75423D00F4DDB8 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4BC2A75423D00F4DDB8 /* MemoCell.swift */; };
+		719AB4BF2A7545E300F4DDB8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4BE2A7545E300F4DDB8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		719AB4B72A75372C00F4DDB8 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 		719AB4BA2A753CD400F4DDB8 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		719AB4BC2A75423D00F4DDB8 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		719AB4BE2A7545E300F4DDB8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				7164CFBE2A7150D7003FEB73 /* Model */,
 				7164CFBF2A7150EC003FEB73 /* View */,
 				7164CFC02A7150F2003FEB73 /* Controllers */,
+				7164CFA72A70E68C003FEB73 /* Main.storyboard */,
 				7164CFAD2A70E68C003FEB73 /* Assets.xcassets */,
 				7164CFAF2A70E68C003FEB73 /* LaunchScreen.storyboard */,
 				7164CFB22A70E68C003FEB73 /* Info.plist */,
@@ -93,7 +98,7 @@
 		7164CFBF2A7150EC003FEB73 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7164CFA72A70E68C003FEB73 /* Main.storyboard */,
+				719AB4BC2A75423D00F4DDB8 /* MemoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				7164CFA52A70E68C003FEB73 /* ViewController.swift */,
+				719AB4BE2A7545E300F4DDB8 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 				7164CFBC2A70ED63003FEB73 /* MemoData+CoreDataClass.swift in Sources */,
 				7164CFBD2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift in Sources */,
 				719AB4BB2A753CD400F4DDB8 /* CoreDataManager.swift in Sources */,
+				719AB4BF2A7545E300F4DDB8 /* DetailViewController.swift in Sources */,
 				7164CFAC2A70E68C003FEB73 /* memoApp.xcdatamodeld in Sources */,
+				719AB4BD2A75423D00F4DDB8 /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
