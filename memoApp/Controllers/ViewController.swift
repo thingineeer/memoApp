@@ -21,12 +21,13 @@ final class ViewController: UIViewController {
         // 서치바
         setupNavBar()
         // 테이블뷰
+        setupTableView()
         
     }
     
     // 뷰에 다시 접근할떄 항상 새로고침
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         tableView.reloadData()
     }
     
@@ -40,10 +41,7 @@ final class ViewController: UIViewController {
         plusButton.tintColor = .black
         navigationItem.rightBarButtonItem = plusButton
     }
-    
-    @objc func plusButtonTapped() {
-        performSegue(withIdentifier: "MemoCell", sender: nil)
-    }
+
     
     
     // MARK: - 테이블뷰
@@ -54,6 +52,10 @@ final class ViewController: UIViewController {
     }
     
     
+    
+    @objc func plusButtonTapped() {
+        performSegue(withIdentifier: "MemoCell", sender: nil)
+    }
     
 
 }

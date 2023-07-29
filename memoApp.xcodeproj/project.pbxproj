@@ -87,8 +87,6 @@
 		7164CFBE2A7150D7003FEB73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */,
-				7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */,
 				719AB4B72A75372C00F4DDB8 /* MyColor.swift */,
 				719AB4BA2A753CD400F4DDB8 /* CoreDataManager.swift */,
 			);
@@ -98,6 +96,8 @@
 		7164CFBF2A7150EC003FEB73 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */,
+				7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */,
 				719AB4BC2A75423D00F4DDB8 /* MemoCell.swift */,
 			);
 			path = View;

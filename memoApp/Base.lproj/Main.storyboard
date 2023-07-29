@@ -137,7 +137,7 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoCell" rowHeight="130" id="TpP-fU-Ohv" userLabel="MemoCell" customClass="MemoCell" customModule="memoApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemoCell" rowHeight="130" id="TpP-fU-Ohv" userLabel="MemoCell" customClass="MemoCell" customModule="memoApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TpP-fU-Ohv" id="BrY-w3-Xtx">
@@ -214,8 +214,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="backgroundView" destination="dba-Oo-wtS" id="pIn-ae-yxG"/>
                                             <outlet property="dateTextLabel" destination="ygQ-Sw-rVJ" id="Lvv-Ns-W7d"/>
+                                            <outlet property="memoBackground" destination="dba-Oo-wtS" id="xlt-we-Yih"/>
                                             <outlet property="memoTextLabel" destination="dgY-KI-XuN" id="3Oe-DE-6Tv"/>
                                             <outlet property="updateButton" destination="pqu-RT-BmA" id="5nW-i3-irN"/>
                                         </connections>
