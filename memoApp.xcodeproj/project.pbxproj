@@ -14,9 +14,9 @@
 		7164CFAC2A70E68C003FEB73 /* memoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFAA2A70E68C003FEB73 /* memoApp.xcdatamodeld */; };
 		7164CFAE2A70E68C003FEB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7164CFAD2A70E68C003FEB73 /* Assets.xcassets */; };
 		7164CFB12A70E68C003FEB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7164CFAF2A70E68C003FEB73 /* LaunchScreen.storyboard */; };
-		7164CFB92A70E74E003FEB73 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFB82A70E74E003FEB73 /* Memo.swift */; };
 		7164CFBC2A70ED63003FEB73 /* MemoData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */; };
 		7164CFBD2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */; };
+		719AB4B82A75372C00F4DDB8 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719AB4B72A75372C00F4DDB8 /* MyColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		7164CFAD2A70E68C003FEB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7164CFB02A70E68C003FEB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7164CFB22A70E68C003FEB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7164CFB82A70E74E003FEB73 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MemoData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		719AB4B72A75372C00F4DDB8 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 		7164CFBE2A7150D7003FEB73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7164CFB82A70E74E003FEB73 /* Memo.swift */,
 				7164CFBA2A70ED63003FEB73 /* MemoData+CoreDataClass.swift */,
 				7164CFBB2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift */,
+				719AB4B72A75372C00F4DDB8 /* MyColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,10 +177,10 @@
 				7164CFA62A70E68C003FEB73 /* ViewController.swift in Sources */,
 				7164CFA22A70E68C003FEB73 /* AppDelegate.swift in Sources */,
 				7164CFA42A70E68C003FEB73 /* SceneDelegate.swift in Sources */,
+				719AB4B82A75372C00F4DDB8 /* MyColor.swift in Sources */,
 				7164CFBC2A70ED63003FEB73 /* MemoData+CoreDataClass.swift in Sources */,
 				7164CFBD2A70ED63003FEB73 /* MemoData+CoreDataProperties.swift in Sources */,
 				7164CFAC2A70E68C003FEB73 /* memoApp.xcdatamodeld in Sources */,
-				7164CFB92A70E74E003FEB73 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
