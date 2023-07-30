@@ -53,6 +53,9 @@ final class DetailViewController: UIViewController {
         
         saveButton.clipsToBounds = true
         saveButton.layer.cornerRadius = 8
+        
+        deleteButton.clipsToBounds = true
+        deleteButton.layer.cornerRadius = 8
         clearButtonColors()
     }
     
@@ -66,6 +69,8 @@ final class DetailViewController: UIViewController {
             
             memoTextView.textColor = .black
             saveButton.setTitle("UPDATE", for: .normal)
+            deleteButton.setTitle("Remove", for: .normal)
+            
             memoTextView.becomeFirstResponder()
             let color = MyColor(rawValue: memoData.color)
             setupColorTheme(color: color)
@@ -76,6 +81,7 @@ final class DetailViewController: UIViewController {
             
             memoTextView.text = "텍스트를 여기에 입력하세요."
             memoTextView.textColor = .lightGray
+            deleteButton.setTitle("취소", for: .normal)
             setupColorTheme(color: .red)
         }
         setupColorButton(num: temporaryNum ?? 1)
