@@ -1,6 +1,9 @@
 # Memo
 
-`CoreData` 아주 Simple한 메모앱
+`CoreData` 사용
+<br>
+<br>
+아주 Simple한 메모앱
 <br>
 <br>
 <h2> ⭐️메모 생성 </h2>
