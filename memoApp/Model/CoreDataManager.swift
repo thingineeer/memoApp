@@ -24,6 +24,10 @@ final class CoreDataManager {
     // 엔티티 이름 (코어데이터에 저장된 객체)
     let modelName: String = "MemoData"
     
+    
+    
+    
+    
     // MARK: - [Read] 코어데이터에 저장된 데이터 모두 읽어오기
     func getToDoListFromCoreData() -> [MemoData] {
         var memoList: [MemoData] = []
@@ -134,7 +138,7 @@ final class CoreDataManager {
         if let context = context {
             // 요청서
             let request = NSFetchRequest<NSManagedObject>(entityName: self.modelName)
-            // 단서 / 찾기 위한 조건 설정
+            // 단서 / 찾기 위한 조건 설정, 날짜 기준으로 저장
             request.predicate = NSPredicate(format: "date = %@", date as CVarArg)
             
             do {
@@ -145,6 +149,8 @@ final class CoreDataManager {
                         
                         // MARK: - ToDoData에 실제 데이터 재할당(바꾸기) ⭐️
                         targetToDo = newToDoData
+                        
+                        // 업데이트시 시간 바꿀지 고민
                         
                         appDelegate?.saveContext() // 앱델리게이트의 메서드로 해도됨
 //                        if context.hasChanges {
