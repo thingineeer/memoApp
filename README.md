@@ -20,5 +20,6 @@
 <p align="left">
 <img src = "https://github.com/thingineeer/memoApp/assets/88179341/6f228221-8116-4dd3-82b7-b63bbbea8f8c" width="30%" height="30%" >
 </p>
+<br>
 
 
