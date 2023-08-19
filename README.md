@@ -3,6 +3,9 @@
 `CoreData` 사용
 <br>
 <br>
+CRUD 기능만 구현
+<br>
+<br>
 아주 Simple한 메모앱
 <br>
 <br>
